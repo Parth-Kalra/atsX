@@ -461,6 +461,11 @@ nav a:hover {
     display: inline-flex;
     align-items: center;
     box-shadow: 0 0 10px rgba(0, 242, 255, 0.1);
+    max-width: 90vw;
+    /* Prevent overflow on small screens */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .cursor {
